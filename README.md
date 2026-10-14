@@ -2,6 +2,8 @@
 
 This repository is your **blank-slate laboratory**. You will write every `.tf` file yourself from scratch, deploy to a real GCP project, intentionally break things ("Chaos Drills"), fix them, and evolve this repo into a production-grade **Internal Developer Platform (IDP)** on Google Cloud.
 
+> **Companion Guide:** See **[PRACTICE_AND_GIT_GUIDE.md](./PRACTICE_AND_GIT_GUIDE.md)** for your **GitHub backup instructions, daily Git/PR workflow, "Blank File" study methodology, Chaos Drills handbook, and Terraform CLI Cheat Sheet**.
+
 ---
 
 ## DevOps vs. Platform Engineering Mindset
