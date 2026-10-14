@@ -1,0 +1,39 @@
+# Local .terraform directories and provider binaries
+**/.terraform/*
+
+# Terraform state files (NEVER commit state files to Git — they contain secrets!)
+*.tfstate
+*.tfstate.*
+errored.tfstate
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which may contain sensitive data,
+# except for example template files (*.tfvars.example)
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# NEVER commit GCP Service Account keys or local credential files!
+*credentials*.json
+*-key.json
+service-account*.json
+.env
+.env.*
+
+# macOS / Editor files
+.DS_Store
+.vscode/
+.idea/
